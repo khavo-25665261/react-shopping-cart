@@ -243,7 +243,7 @@ The project uses custom hooks to encapsulate business logic:
 
 #### Prerequisites
 ```bash
-Node.js 14.17.3
+Node.js 14.17.3 (as specified in package.json engines)
 npm (comes with Node.js)
 ```
 
@@ -277,7 +277,7 @@ npm run build
 |---------|-------------|
 | `npm start` | Start development server with hot reload |
 | `npm run build` | Create production build |
-| `npm test` | Run tests in watch mode (silent) |
+| `npm test` | Run tests with silent output |
 | `npm run test:watch` | Run tests in interactive watch mode |
 | `npm run test:coverage` | Generate test coverage report |
 | `npm run lint` | Lint source code with ESLint |
