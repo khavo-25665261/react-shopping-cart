@@ -439,22 +439,23 @@ interface ICartTotal {
 
 ## Contributing Guidelines
 
-While not explicitly documented in the repository, the project follows these conventions:
+Based on the project structure and tooling, contributors should follow these best practices:
 - Use TypeScript for all new code
 - Follow existing code style (enforced by Prettier)
 - Write tests for new features
-- Use conventional commit messages
+- Use conventional commit messages (enforced by commitlint)
 - Ensure all tests pass before committing
+- Maintain or improve test coverage thresholds
 
 ## License
 
-MIT License - See LICENSE file for details
+The MIT License (MIT) - As specified in the README.md
 
 ## Credits
 
 - **Original Author**: Jefferson Ribeiro
-- **Repository**: https://github.com/jeffersonRibeiro/react-shopping-cart
-- **Current Fork**: khavo-25665261/react-shopping-cart
+- **Original Repository**: https://github.com/jeffersonRibeiro/react-shopping-cart
+- **Current Fork**: https://github.com/khavo-25665261/react-shopping-cart
 
 ---
 
